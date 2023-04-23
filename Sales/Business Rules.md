@@ -56,7 +56,7 @@ This scenario describes how to set up a Prohibit Price Override Business Rule.
 
     **Product Condition**
 
-    a. From the **Transaction Type** drop-down list, select Sale item only.
+    a. From the **Apply To** drop-down list, select Sale item only.
 
     b. From the **Groups** drop-down list, select the item groups to which you are associating the Business Rule.
 
@@ -163,7 +163,7 @@ This scenario describes how to set up a Quantitative Limit Business Rule with a 
 
     **Product Condition**
 
-    a. From the **Transaction Type** drop-down list, select Sale item only.
+    a. From the **Apply To** drop-down list, select Sale item only.
 
     b. From the **Groups** drop-down list, select the item groups to which you are associating the Business Rule.
 
@@ -271,7 +271,7 @@ This scenario describes how to set up a Void Item Business Rule with Manager App
 
     **Product Condition**
 
-    a. From the **Transaction Type** drop-down list, select Sale item only.
+    a. From the **Apply To** drop-down list, select Sale item only.
 
     b. From the **Groups** drop-down list, select the item groups to which you are associating the Business Rule.
 
@@ -378,7 +378,7 @@ This scenario describes how to set up a Void Transaction Business Rule with Mana
 
     **Product Condition**
 
-    a. From the **Transaction Type** drop-down list, select Sale item only.
+    a. From the **Apply To** drop-down list, select Sale item only.
 
     b. From the **Groups** drop-down list, select the item groups to which you are associating the Business Rule.
 
@@ -445,7 +445,7 @@ The **Product** rule evaluates the sale of products during a transaction.
 
 5. Click the arrow to open the Product Condition.
 
-    a. From the **Transaction Type** drop-down list, select Sale item only.
+    a. From the **Apply To** drop-down list, select Sale item only.
 
     b. From the **Groups** drop-down list, select the item groups to which you are associating the Business Rule.
 

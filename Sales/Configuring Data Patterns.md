@@ -386,7 +386,7 @@ a. From the left pane, click the **Tax Exempt ID** option. The **Tax Exempt ID**
 b. From the left pane, click the **Expiry Date** option. The **Expiry Date** section is displayed in the right pane, define the parameters.  
 -- **Position** field – enter 12  
 -- **DateTimeFormat** field – yyyyMMdd
-1. Once you have defined all the relevant parameters, click S**ave. 
+1. Once you have defined all the relevant parameters, click **Save**. 
 
 
 

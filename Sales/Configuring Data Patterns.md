@@ -358,3 +358,35 @@ The following example shows how to set up a transaction type barcode.
     * Set the **Strip Leading Zeros** slider to No.
 
 16. Once you have defined all the relevant parameters, click **Save**.
+
+### Configuring a Tax Exemption Type Data Pattern
+
+The following example shows how to set up a Tax Exemption type barcode.
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., Tax Exemption.
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the **Type to Search** field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. In the **General** tab, select the **Prefix Length** option.
+1. In the **Length** field, enter the total length of the data pattern, e.g., 19.
+1. In the **Decoded Prefix Ranges** section click **+Add New Prefix**.
+1. In the **Fixed** field, enter a fixed prefix, e.g., 298. All data patterns linked to this data pattern group start will the same prefix.
+1. Select the **Content** tab. The parameters relevant to define a Transaction barcode are displayed in the Select Parameters section.
+1. Define the following parameters:  
+a. From the left pane, click the **Tax Exempt ID** option. The **Tax Exempt ID** section is displayed in the right pane, define the parameters.  
+-- **Position** field – enter 4  
+-- **Length** field – enter 8  
+-- Set the **Strip Leading Zeros** slider to On  
+b. From the left pane, click the **Expiry Date** option. The **Expiry Date** section is displayed in the right pane, define the parameters.  
+-- **Position** field – enter 12  
+-- **DateTimeFormat** field – yyyyMMdd
+1. Once you have defined all the relevant parameters, click S**ave. 
+
+
+

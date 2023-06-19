@@ -124,7 +124,7 @@ The breadcrumbs at the top of the screen display the navigation path.
 ![Touchpoint Groups Screen](/Images/TouchpointGroupsScreen.png)
 
 From each module, the following options are available:
-* Add new entities via the + Add <Module Name> hyperlink
+* Add new entities via the + Add < Module Name > hyperlink
 * Click the pencil icon ![Pencil Icon](/Images/PencilIcon.png)
 to open the screen in edit mode  
 

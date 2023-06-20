@@ -8,7 +8,7 @@
 
 The following list of commands/states are provided out-of-the-box:
 
-#### General Menu 
+#### General Menu
 
       'ApplyTransactionTaxExemptionCommand',
       'ApplyItemTaxExemptionCommand',
@@ -67,32 +67,6 @@ The following list of commands/states are provided out-of-the-box:
 * TenderTransactionCommands – Commands displayed on the sidebar when the current transaction is in the tendering state
 * TenderDetailsViewCommands – Commands displayed in the action window when a tender or refund is selected in the EJ
 * ANY state is used for command menus not tied to state.
-
-### Configuring a Command Menu
-
-A range of out-of-the-box base configurations to provide a starting point for configuring the system and a reference for editing command menus is supported. Adding new commands requires uploading only the new command offerings to avoid erasing any permissions on commands as configured by the customer.
-
-This flow shows an example of how to configure a command menu displayed in No Sale mode at the POS.
-
-1. Browse to Sales/Touchpoint Behavior/Command Menu.
-1. Click **+ Add New Command Menu**. The **Add New Command Menu** screen is displayed.
-1. In the **Name** field, enter the name of the command menu.
-1. From the **Location** drop-down list, select the location, e.g., Texas.
-1. From the **Touchpoint Groups** drop-down list, select the touchpoint group, e.g., SelfCheckout.
-1. From the **Touchpoint Application** drop-down list, select the touchpoint application, e.g., POS.
-1. From the **Menu Type** drop-down list, select the menu type, e.g., User.  
-On hovering over the field tooltip, a popup screen shows where this menu type appears on the POS.
-1. Make sure the **Active** toggle is enabled if you wish for this command menu to take effect as soon as the configuration is saved.
-1. From the **State** drop-down list, select the state to which the commands you are configuring is associated. , e.g., NoSaleTransactionCommands.
-1. From the **Commands** pane, drag and drop the commands you wish to add to this menu.:  
-The commands are displayed on the POS in the order they are entered into the command window.
-1. Continue to add all the commands you want.
-1. To add a Command Group, click **+ Add New Command Group**. The **New Command Group** screen is displayed.
-1. In the **Name** field, enter the name of the command group.
-1. In the **Description** field, enter the description of the command group.
-1. From the **Commands** section, select the command you want to add to the Command Group and drag it to the right pane.
-1. Continue to add all the commands you want.
-1. Click **Save**.
 
 ### Configuring a Command Menu
 

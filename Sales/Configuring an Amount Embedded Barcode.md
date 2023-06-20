@@ -1,5 +1,3 @@
-## Configuring Data Patterns
-
 ### Configuring an Amount Embedded Barcode
 
 The following example shows how to set up an Amount Embedded Barcode:120000221000 for a weight item.

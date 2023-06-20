@@ -110,9 +110,9 @@ a. From the left pane, click the **Item Code** option. The **Item Code** section
 
 The following example shows how to set up a UPCA barcode.  
 For example:  
-**042100005264 ** 
+**042100005264**  
 Entity Type – Item  
-DataPattern ID – UPCA  
+DataPattern ID – UPCA   
 Key = Code, Value=**4210000526**  
 
 1. Browse to Sales/Barcodes/Data Pattern.
@@ -133,7 +133,7 @@ Key = Code, Value=**4210000526**
 6. From the **Type** drop-down list, select the data pattern type, e.g., **Item**.
 7. In the **General** tab, select the Prefix Length option (displayed by default).
 8. In the **Length** field, enter the total length of the data pattern, e.g., 12.
-9. In the **Decoded Prefix** Ranges section click **+Add New Prefix**.  
+9. In the **Decoded Prefix Ranges** section click **+Add New Prefix**.  
 In the **From** field, enter 6 and in the **To** field, enter 8.
 10. In the **Check Digit** option, click **+ Add New**
 

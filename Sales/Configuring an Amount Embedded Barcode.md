@@ -153,7 +153,7 @@ a. From the left pane, click the **Item Code** option. The **Item Code** section
     * In the **Position** - enter 1
     * In the **Length** – enter 11
     * Set the **Strip Leading Zeros** slider to Yes.
-13. Click **Save**.
+12. Click **Save**.
 
 #### Configuring a Coupon UPC Type Data Pattern
 

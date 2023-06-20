@@ -21,7 +21,8 @@ The following example shows how to set up an Amount Embedded Barcode:12000022100
 6. From the **Type** drop-down list, select the data pattern type, e.g., **Item**.
 7. In the **General** tab, select the **Prefix Length** option (displayed by default).
 8. In the **Length** field, enter the total length of the data pattern, e.g., 12.
-9. In the **Decoded Prefix Ranges** section click **+Add New Prefix**. and in the **Fixed Amount** field, enter 2.
+9. In the **Decoded Prefix Ranges** section click **+Add New Prefix**.  
+ In the **Fixed Amount** field, enter 2.
 10. Click the **Validators** option.
 11. In the **Check Digit** option click **+ Add New**.
 
@@ -97,7 +98,7 @@ Item Code – 299
 
     e. In the **Length** field, enter the number of check digits in the check digit range, enter 12.
 
-11. Select the **Content** tab. The parameters relevant to define an Item barcode are displayed in the Select Parameters section.
+11. Select the **Content** tab. The parameters relevant to define an Item barcode are displayed in the Select Parameters section.  
 a. From the left pane, click the **Item Code** option. The **Item Code** section is displayed in the right pane, define the parameters:
     * Select **Position Length**
     * In the **Position** - enter 1

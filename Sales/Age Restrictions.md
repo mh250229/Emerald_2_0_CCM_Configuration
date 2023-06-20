@@ -8,6 +8,11 @@ For example, you can define Age Restricted policies to:
 
 In addition, once a transaction is saved and then recalled, the restricted items require approval even if they were already approved before saving the transaction.
 
+Age Restrictions can be configured to trigger after the customer has scanned all their items at the Self Checkout (SCO) and selects OK to pay for the items. The restrictions are prompted and the attendant solves each restriction as required.
+
+Currently, this is configured via the PUT/emerald/selling-service/selling-configuration/v1/business-rules-settings/age-restrictions/{ruleId} in the Selling Configuration Services.
+
+
 ### Configuring an Age Restriction
 
 This example describes how to set up an Age Restriction Rule to prevent cigarette purchases to individuals under the age of 18.

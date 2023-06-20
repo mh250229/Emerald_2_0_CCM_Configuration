@@ -123,7 +123,7 @@ Click the calendar icon to use the calendar to assist you in selecting the dates
     b. From the **Product/Groups/Category** drop-down list, select the option for which you are defining the restriction. For example, you may define a restriction on all dairy products.  
 
     c. Set the **Include** slider to Yes or No:  
-        * **Yes** – indicates that the Product/Group/Category is included, i.e., restricted.
+        * **Yes** – indicates that the Product/Group/Category is included, i.e., restricted.  
         * **No** – indicates that the Product/Group/Category is not included, i.e., not restricted, but all other Products/Groups/Categories are restricted.
 
     d. Click **Add Attribute**.  
@@ -167,7 +167,7 @@ Click the calendar icon to use the calendar to assist you in selecting the dates
     b. From the **Product/Groups/Category** drop-down list, select the option for which you are defining the restriction. For example, you may define a restriction on all dairy products.
   
     c. Set the **Include** slider to Yes or No:  
-        * **Yes** – indicates that the Product/Group/Category is included, i.e., restricted.
+        * **Yes** – indicates that the Product/Group/Category is included, i.e., restricted.  
         * **No** – indicates that the Product/Group/Category is not included, i.e., not restricted, but all other Products/Groups/Categories are restricted.  
 
     d. Click **Add Attribute**.  

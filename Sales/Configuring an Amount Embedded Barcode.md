@@ -277,7 +277,7 @@ Drivers Licenses must comply with the American Association of Motor Vehicle Admi
 
 Date formats in Driver’s Licenses differ according to the state/country in which the license was issued. For example, the date format in Drivers licenses issued in the USA is MMDDCCYY, and the date format for Drivers Licenses issued in Canada is CCYYMMDD.  
 
-Both date formats are supported. On scanning a Driver’s License after an Age Restriction rule is triggered in a transaction, the system identifies and extracts the date of birth and inserts the date in the correct format.
+Both date formats are supported. On scanning a Driver’s License after an Age Restriction rule is triggered in a transaction, the system identifies and extracts the date of birth and inserts the date in the correct format.  
 If the Date of Birth is not verified, an error message is displayed, and the item is not added to the transaction.  
 
 The following example shows how to set up a driver license barcode.

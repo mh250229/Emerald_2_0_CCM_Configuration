@@ -24,7 +24,7 @@ Click **View**. The View Message form is displayed. You can verify the message t
 
 1. To edit the message, click **Edit**. The Edit Message form is displayed.
 2. Edit the **Title** as required.
-3. In the **Message Body or Instructions**, edit the text as required. 
+3. In the **Message Body or Instructions**, edit the text as required.  
 a. To add a dynamic attribute, e.g., display the maximum percentage in the message, from the left panel, under **Add Content**, click **Price Override**. The dynamic attributes are displayed.  
 b. Select the **MaxPercentChange** attribute and drag it to the Message Body or Instructions adding it to your message.
 4. To add the message in a different language, click **+ Add Language**.  

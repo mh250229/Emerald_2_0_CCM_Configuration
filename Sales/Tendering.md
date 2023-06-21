@@ -25,7 +25,7 @@ In this example, the cashier must enter the amount of cash given by the customer
 6. Click the arrow in the **Basic Definitions** options.
 7. In the **Open drawer**, select the **Always** option.
 8. In the **Tendering amount required** option, select the **Open Amount** option.
-9. Set the **Block Partial Payment** slider to No.
+9. Set the **Block Partial Payment** slider to Off.
 10. In the **Payment Priority** field enter 0.
 11. Click the arrow in the **Change Definitions** option.
 12. Set the **Consolidate On Change** slider to Yes.
@@ -58,7 +58,7 @@ In this example, different cash buttons are displayed at the POS, according to s
 17. Set the **Disable Automatic Void** slider to No.
 18. In the Priority field, enter 1.
 19. From the **Tender / Select Tender** drop-down list, select **Cash**.
-20. In the Up to **Amount field**, enter 100.
+20. In the **Up to Amount** field enter 100.
 21. Click **Save**.
 
 ### Configuring a Check Tender

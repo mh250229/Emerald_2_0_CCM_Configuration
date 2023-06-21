@@ -1,4 +1,4 @@
-## Tax Authorities
+## Tax
 
 Different taxes are imposed by authorities in a specific jurisdiction. Multiple tax rates are applied based on the Tax Authorities such as: state, county, city, region, district, etc.  
 Each new tax rate can be defined as a specific tax type, such as Tax (regular taxes), Item fee or Transaction fee. Fees are defined by the authority, such as recycling, 911 fees, etc.  

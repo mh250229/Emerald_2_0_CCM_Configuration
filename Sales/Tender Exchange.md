@@ -53,7 +53,7 @@ The following example shows how to set up a Tender Exchange for a CoinsStar to C
 1. Browse to Sales/Tendering/Tender Exchange.
 2. Click **+Add Tender Exchange**.
 3. In the **ID** field enter the unique ID representing the tender exchange, e.g., 3.
-4. In the **Name** enter the name of the Tender Exchange, e.g., CoinStarToCash.
+4. In the **Name** enter the name of the Tender Exchange, e.g., CoinStarToCash.  
 **Note:** A CoinStarToCash button must be added to the Tender Exchange POS menu.
 5. In the **Minimum Amount** field enter 0 indicating any amount is accepted.
 6. In the **Maximum Amount** field enter 0 indicating any amount is accepted.

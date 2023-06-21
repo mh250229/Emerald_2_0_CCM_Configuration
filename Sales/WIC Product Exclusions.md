@@ -8,7 +8,7 @@ This process describes how to exclude a CVB item imported into the store in an A
 
 Scenario:
 
-The retailer want to exclude whole milk from the Virginia Agency APL.  
+The retailer wants to exclude whole milk from the Virginia Agency APL.  
 The following APL products are defined for the Agency ‘Virginia’:
 
 |**Product Code**|**Product Name**|
@@ -29,7 +29,7 @@ The following APL products are defined for the Agency ‘Virginia’:
 3. (Optional) From the **Location** drop-down list, select the location the WIC product is assigned to.
 4. (Optional) From the **Category** drop-down list, select the category the WIC product is assigned to.
 5. (Optional) From the **Sub-Category** drop-down list, select the sub-category the WIC product is assigned to.
-6. (Optional) In the **Item Code or Description** field, enter the full or partial item code or description of the item you want to search for.
+6. (Optional) In the **Item Code or Description** field, enter the full or partial item code or description of the item you want to search for.  
 The APL products defined for the defined search criteria are displayed in the grid.
 7. In the grid, select the checkbox for SPRINGDALE WHOLE MILK (Item Code 00000111104).
 8. In the **Excluded Location** field, select ![Plus Icon](/Images/plusicon.png). The New Products Exclusions from is displayed.

@@ -10,6 +10,22 @@ The following Business Rules can be triggered at the POS:
 
 **Note:** currently, the ‘Scope’ option is only supported via API. Automation Rejection Messages are only supported by the API. Roles is not supported.
 
+Business Rules can be configured to trigger after the customer has scanned all their items at the Self Checkout (SCO) and selects OK to pay for the items. The restrictions are then prompted and the attendant solves each restriction as required.
+
+Currently, this is configured via the Selling Configuration Services only.
+
+Delayed approval is supported for the following Business Rules:
+
+* **Price Override**  
+PUT/emerald/selling-service/selling-configuration/v1/business-rules-settings/price-overrides/{ruleId}
+* **Quantitative Limit**  
+PUT/emerald/selling-service/selling-configuration/v1/business-rules-settings/quantities/{ruleId}
+* **Void Item**  
+PUT/emerald/selling-service/selling-configuration/v1/business-rules-settings/void-limits/{ruleId}
+* **Product**  
+PUT/emerald/selling-service/selling-configuration/v1/business-rules-settings/product-sales/{ruleId}
+
+
 ### Configuring a Price Override BRM
 
 The **Price Override** rule controls the option of overriding the price of an item during a transaction. If a transaction includes an item for which the price is overridden, you can prevent/allow cashiers to override the item price by a defined percentage.  

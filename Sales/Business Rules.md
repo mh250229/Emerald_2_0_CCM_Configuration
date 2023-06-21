@@ -80,8 +80,8 @@ This scenario describes how to set up a Prohibit Price Override Business Rule.
 
     d. From the **Products** field, click the **+** sign. The Browse or Look Up Item form is displayed.
 
-    e. Search for the product as follows:
-        i. In the **Item** field, enter the full or partial name of the item.
+    e. Search for the product as follows:  
+        i. In the **Item** field, enter the full or partial name of the item.  
         ii. Select the **Exact Match** option to indicate that the system must retrieve the exact name of the item entered.  
         Or  
         Search by **Category**, from the Category drop-down list, select a category.  
@@ -173,8 +173,7 @@ This scenario describes how to set up a Quantitative Limit Business Rule with a 
 
         Or
 
-    * To apply the business rule to a specific touchpoint group, select **Selected Groups**.
-
+    * To apply the business rule to a specific touchpoint group, select **Selected Groups**.  
     From the **Included Groups** drop-down list, select the groups you wish to apply the business rule.
 
     **Product Condition**
@@ -264,7 +263,7 @@ This scenario describes how to set up a Void Item Business Rule with Manager App
 
     From the left pane, select the checkbox of the Root to include all locations, or select the checkboxes next to the locations you wish to include.
 
-    The selected locations are displayed in the right pane under the Included Selections.
+    The selected locations are displayed in the right pane under the Included Selections.  
     The Locations not included are displayed in the Excluded Selections
 
     c. Click **Save**.
@@ -329,7 +328,7 @@ This scenario describes how to set up a Void Item Business Rule with Manager App
 
     You can view the messages after linking it to the BRM, create a new message on the fly, or edit an existing message. For details on Messages, see Messages
 
-11. From the **Roles** drop-down list, select the role with the privileges required by the person who is approving the activity.
+11. From the **Roles** drop-down list, select the role with the privileges required by the person who is approving the activity.  
 **Note:** The **Roles** field is not supported in this version.
 
 12. From the **Scope** drop-down list, select the relevant options:

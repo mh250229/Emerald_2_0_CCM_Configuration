@@ -452,7 +452,7 @@ The **Product** rule evaluates the sale of products during a transaction.
 
 1. Browse to Sales Rules/Business Rules
 
-2. Click **+ Add Business Rule**. The *New Business Rule* screen is displayed.
+2. Click **+ Add Business Rule**. The New Business Rule screen is displayed.
 
 3. In the **Name** field enter Product.
 
@@ -468,7 +468,7 @@ The **Product** rule evaluates the sale of products during a transaction.
 
     d. From the **Products** field, click the **+** sign. The Browse or Look Up Item form is displayed.
 
-    e. Search for the product as follows:
+    e. Search for the product as follows:  
         i. In the **Item** field enter the full or partial name of the item.  
         ii. Select the **Exact Match** option to indicate that the system must retrieve the exact name of the item entered.  
         Or  
@@ -508,8 +508,7 @@ The **Product** rule evaluates the sale of products during a transaction.
 
         Or
 
-    * To apply the business rule to a specific touchpoint group, select **Selected Groups**.
-
+    * To apply the business rule to a specific touchpoint group, select **Selected Groups**.  
     From the **Included Groups** drop-down list, select the groups you wish to apply the business rule.
 
     **Customer Order Condition**
@@ -532,7 +531,7 @@ The **Product** rule evaluates the sale of products during a transaction.
 
 8. From the **Action Type** drop-down list, select **Prompt for Confirmation**.
 
-9. From the Message drop-down list, select the ConfirmationRequest message.
+9. From the **Message** drop-down list, select the **ConfirmationRequest** message.
 
     You can view the messages after linking it to the BRM, create a new message on the fly, or edit an existing message. For details on Messages, see Messages.
 

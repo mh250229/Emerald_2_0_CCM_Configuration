@@ -128,10 +128,10 @@ In this example, the Non ECC tender is configured for the Check/Cheque tender. T
 10. In the **Payment Priority** field enter 1.
 11. Click the arrow in the **Tender Authorization** option.
 12. In the **Authorization Method** options, Process with EPS is selected by default.
-13. In the **Tender EPS Reference**, enter **EPS_Giftcard** and click Enter.
+13. In the **Tender EPS Reference**, enter EPS_Giftcard and click Enter.
 14. Enter **GC** and click **Enter**.
 15. Click the arrow in the **Specific Definitions** option.
-16. Set the **Barcode Required** slider to Yes.
+16. Set the **Barcode Required** slider to **Yes**.
 17. Click **Save**.
 
 #### Configuring a Mastercard Tender
@@ -148,10 +148,10 @@ In this example, the Non ECC tender is configured for the Check/Cheque tender. T
 10. In the **Payment Priority** field enter 0.
 11. Click the arrow in the **Tender Authorization** option.
 12. In the **Authorization Method** options, Process with EPS is selected by default.
-13. In the T**ender EPS Reference**, enter **EPS_Mastercard** and click **Enter**.
+13. In the T**ender EPS Reference**, enter EPS_Mastercard and click **Enter**.
 14. Enter **MC** and click **Enter**.
 15. Click the arrow in the **Specific Definitions** option.
-16. Set the **Barcode Required** slider to No.
+16. Set the **Barcode Required** slider to **No**.
 17. Click **Save**.
 
 #### Configuring an EBT Cash Tender
@@ -188,6 +188,10 @@ EBT (Electronic Benefits Tender).
 
 #### Configuring an InComm Tender
 
+**Note:**  
+Currently Emerald supports purchase/activation of InComm Gift Cards. Reloading of InComm Gift Cards will be supported in future releases.
+
+
 1. Browse to Sales/Tendering/Tender.
 2. Click **+Add Tender**.
 3. In the **Tender Code** enter the Tender Code Id.
@@ -207,6 +211,10 @@ EBT (Electronic Benefits Tender).
 
 ### Configuring a Reward Tender
 
+#### Configuring a Stored Monetary Value Reward Tender
+
+Under Construction
+
 #### Configuring a Digital Coupon Tender
 
 1. Browse to Sales/Tendering/Tender.
@@ -218,9 +226,15 @@ EBT (Electronic Benefits Tender).
 7. In the **Open drawer**, select the **Never** option.
 8. In the **Tender amount required**, select the **Immediate Closing, Balance Due as Default** option.
 9. In the **Payment Priority** field enter 0.
-10. Click the arrow in the **Specific Definition** option.
-11. In the **Reward Type Mapping** field, enter DIGITAL_MANUFACTURER_COUPON and DIGITAL_STORE_COUPON.
-12. Click **Save**.
+10. Click the arrow in the **Change Definitions** option.
+11. Set the **Consolidate On Change** slider to **Yes**.
+12. Set the **Disable Automatic Void** slider to **No**.
+13. In the **Priority** field, enter 1.
+14. From the Tender / Select Tender drop-down list, select Cash.
+15. In the **Up to Amount** field, enter 50.
+16. Click the arrow in the **Specific Definition** option.
+17. In the **Reward Type Mapping** field, enter DIGITAL_MANUFACTURER_COUPON and DIGITAL_STORE_COUPON.
+18. Click **Save**.
 
 #### Configuring a Manufacturer Coupon Tender
 
@@ -233,10 +247,15 @@ EBT (Electronic Benefits Tender).
 7. In the **Open drawer**, select the **Always** option.
 8. In the **Tender amount required**, select the **Immediate Closing, Balance Due as Default** option.
 9. In the **Payment Priority** field enter 0.
-10. Click the arrow in the **Specific Definition** option.
-11. Set the **Default Reward Tender** slider to Yes.
-12. In the **Reward Type Mapping** field, enter GS1_MANUFACTURER_COUPON and UPC5_COUPON.
-13. Click **Save**.
+10. Set the **Consolidate On Change** slider to **Yes**.
+11.	Set the **Disable Automatic Void** slider to **No**.
+12.	In the **Priority** field, enter **1**.
+13.	From the Tender / Select Tender drop-down list, select Cash.
+14.	In the **Up to Amount** field, enter 50.
+15. Click the arrow in the **Specific Definition** option.
+16. Set the **Default Reward Tender** slider to Yes.
+17. In the **Reward Type Mapping** field, enter GS1_MANUFACTURER_COUPON and UPC5_COUPON.
+18. Click **Save**.
 
 
 ### Configuring an eWIC Tender
@@ -254,8 +273,8 @@ EBT (Electronic Benefits Tender).
 9. In the **Payment Priority** field enter 110.
 10. Click the arrow in the **Tender Authorization** option.
 11. In the **Authorization Method** options, **Process with EPS** is selected by default.
-12. In the **Tender EPS Reference**, enter **EWIC** and click **Enter**.
-13. Enter **EWeWic** and click **Enter**.
+12. In the **Tender EPS Reference**, enter **EWIC** and click Enter**.
+13. Enter **eWic** and click **Enter**.
 14. Click **Save**.
 
 

@@ -608,8 +608,8 @@ b. Click **Save** to save the selected stores.
 1. In the Decoded Prefix Ranges section, click +Add New Prefix.
 * In the **Fixed** field, enter 636811.
 10. Expand the **Validators** pane, and in the Check Digit section select + Add New Check Digit.  
-a. In the **Offset** – enter 14.
-b. In the **Algorithm** – enter UPC.
-c. In the **Position** – enter 1
-d. In the **Length** – enter 13
+a. In the **Offset** – enter 14.  
+b. In the **Algorithm** – enter UPC.  
+c. In the **Position** – enter 1  
+d. In the **Length** – enter 13  
 1. Click Save.

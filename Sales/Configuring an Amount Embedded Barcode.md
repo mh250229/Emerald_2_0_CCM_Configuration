@@ -8,7 +8,7 @@ The following example shows how to set up an Amount Embedded Barcode:12000022100
 4. In the **Description** field, enter the name of the data pattern, e.g., Amount Embedded
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or
 
@@ -66,7 +66,7 @@ Item Code – 299
 4. In the **Description** field, enter the name of the data pattern, e.g., Amount Embedded
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
 
     Or  
 
@@ -121,7 +121,7 @@ Key = Code, Value=**4210000526**
 4. In the **Description** field, enter the name of the data pattern, e.g., UPCA.
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or
 
@@ -165,7 +165,7 @@ The following example shows how to set up a Coupon UPC type data pattern.
 4. In the **Description** field, enter the name of the data pattern, e.g., Coupons.
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
 
     Or
 
@@ -237,7 +237,7 @@ The following example shows how to set up a Tender type data pattern.
 4. In the **Description** field, enter the name of the data pattern, e.g., Credit Card.
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or
 
@@ -288,7 +288,7 @@ The following example shows how to set up a driver license barcode.
 4. In the **Description** field, enter the name of the data pattern, e.g., Driver License.
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or
 
@@ -312,7 +312,7 @@ The following example shows how to set up a transaction type barcode.
 4. In the **Description** field, enter the name of the data pattern, e.g., Transaction.
 5. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
 
-    a. To search for a store, in the Type to Search field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or
 
@@ -367,7 +367,7 @@ The following example shows how to set up a Tax Exemption type barcode.
 1. In the **ID** field, enter the Data Pattern ID.
 1. In the **Description** field, enter the name of the data pattern, e.g., Tax Exemption.
 1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
-a. To search for a store, in the **Type to Search** field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
 Or  
 From the left pane, select the checkboxes next to each store linked to the data pattern.  
 All stores selected are displayed in the Selections in the right pane.  
@@ -387,5 +387,229 @@ b. From the left pane, click the **Expiry Date** option. The **Expiry Date** sec
 -- **DateTimeFormat** field – yyyyMMdd
 1. Once you have defined all the relevant parameters, click **Save**. 
 
+### Configuring a Blackhawk Gift Card Data Pattern
 
+This process describes how to set up a Blackhawk gift card barcode:
 
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., Blackhawk Gift Card
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Item**.
+1. In the **General** tab, select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 30.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix. 
+1. In the **From** field, enter 076 and in the **To** field enter the prefix 076.
+1. Select the **Content** tab. The parameters relevant to define an Item barcode are displayed in the Select Parameters section.  
+a. From the left pane, click the **Item Code** option. The **Item Code** section is displayed in the right pane, define the parameters:  
+* Select **Position Length**  
+* In the **Position** - enter 1  
+* In the **Length** – enter 11  
+* Set the **Strip Leading Zeros** slide to Off.  
+b. From the left pane, click the **Authorization External ID** option. The **Authorization External ID** section is displayed in the right pane, define the parameters:  
+* Select **Position Length**  
+* In the **Position** - enter 12  
+* In the **Length** – enter 19  
+* Set the **Strip Leading Zeros** slide to Off.  
+12. Click Save. 
+
+### Configuring a Coinstar Data Pattern
+
+This process describes how to set up a Coinstar Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., Coinstar
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a.To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Tender**.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 13.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix. 
+1. In the **From** field, enter 27.
+1. Expand the **Validators** pane, and in the Decoding Prefix Ranges section select + Add New Check Digit.  
+1. In the Offset field, enter 13.  
+1. In the **Algorithm** field, enter UPC.  
+1. In the **Position** field, enter 1.  
+1. In the **Length** field, enter 12.  
+1. Select the **Content** tab. The parameters relevant to define a Tender barcode are displayed in the Select Parameters section.  
+a. From the left pane, click the **Tender Code** option. The **Tender Code** section is displayed in the right pane, define the parameters:  
+* Select **Fixed** 
+* In the Fixed Value - enter 81  
+b. From the left pane, click the **Tender Amount** option. The **Tender Amount** is displayed in the right pane, define the parameters:  
+* In the **Position** - enter 8  
+* In the **Length** – enter 5  
+*  In the **Decimals** – enter 2.  
+17. Click Save. 
+
+### Configuring a Loyalty Card Type Data Pattern
+
+This process describes how to set up a Loyal Card Type Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., Loyalty Card
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Customer**.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 12.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix.
+1. In the **Fixed** field, enter 4.
+1. Expand the **Validators** pane, and in the Check Digit section select + Add New Check Digit.
+1. In the **Offset** field, enter 12.
+1. In the **Algorithm** field, enter UPC.
+1. In the **Position** field, enter 1.
+1. In the **Length** field, enter 11.
+1. Select the **Content** tab. The parameters relevant to define a Customer barcode are displayed in the Select Parameters section. 
+1. From the left pane, click the **Loyalty Card ID** option. The **Loyalty Card ID** section is displayed in the right pane, define the parameters:  
+a.	Select Position Length  
+b.	In the **Position** - enter 1  
+c.	In the **Length** – enter 11  
+d.	Set the **Strip Leading Zeros** slide to Off.  
+1. Click Save.
+
+### Configuring a Bottle Return Type Data Pattern
+
+This process describes how to set up a Bottle Return Type Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., Bottle Return
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., Tender.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 14.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix.
+1. In the **Fixed** field, enter 8.
+1. Select the **Content** tab. The parameters relevant to define a Customer barcode are displayed in the Select Parameters section.  
+a. From the left pane, click the **Tender Code** option. The **Tender Code** section is displayed in the right pane, define the parameters:  
+* Select **Fixed**  
+* In the **Fixed Value** – enter 80  
+b. From the left pane, click the **Voucher Type** option. The **Voucher Type** section is displayed in the right pane, define the parameters:  
+* In the **Fixed Value**, - enter Tomra
+1. Click **Save**.
+
+### Configuring a GS1 EAN13 Type Data Pattern
+
+This process describes how to set up a GS1 EAN13 Type Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., GS1 EAN13
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported. 
+a.To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Item**.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 14.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix.  
+a. In the **Fixed** field, enter 010.  
+b. In the **To** field, enter 019.  
+1. In the Decoded Prefix Ranges section, click +Add New Prefix.  
+a. In the **Fixed** field, enter 030.  
+b. In the **To** field, enter 097.  
+1. Expand the **Validators** pane, and in the Check Digit section select + Add New Check Digit.  
+a. In the **Offset** – enter 14.  
+b. In the **Algorithm** – enter UPC.  
+c. In the **Position** – enter 1  
+d. In the **Length** – enter 13  
+1. Select the **Content** tab. The parameters relevant to define an Item barcode are displayed in the Select Parameters section.
+1. From the left pane, click the **Item Code** option. The **Item Code** section is displayed in the right pane, define the parameters:  
+a. Select Position Length  
+b. In the Position – enter 2  
+c. In the Length – enter 13  
+d. Set the Strip Leading Zeros slide to On.  
+1. Click **Save**.
+
+### Configuring a GS1 UPCA Type Data Pattern
+
+This process describes how to set up a GS1 UPCA Type Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID.
+1. In the **Description** field, enter the name of the data pattern, e.g., GS1 UPCA
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Item**.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 14.  
+9. In the Decoded Prefix Ranges section, click +Add New Prefix.
+* In the **Fixed** field, enter 0.
+10. In the Decoded Prefix Ranges section, click +Add New Prefix.  
+* In the **Fixed** field, enter 1
+11. In the Decoded Prefix Ranges section, click +Add New Prefix. 
+* In the **Fixed** field, enter 3
+12. In the Decoded Prefix Ranges section, click +Add New Prefix. 
+* In the **From** field, enter 6  
+* In the **To** field, enter 8
+
+13. Expand the **Validators** pane, and in the Check Digit section select + Add New Check Digit.  
+a. In the **Offset** – enter 14.  
+b. In the **Algorithm** – enter UPC.  
+c. In the **Position** – enter 1  
+d. In the **Length** – enter 13  
+1. Select the Content tab. The parameters relevant to define an Item barcode are displayed in the Select Parameters section. 
+1. From the left pane, click the Item Code option. The Item Code section is displayed in the right pane, define the parameters:
+	Select Position Length
+	In the Position – enter 1
+	In the Length – enter 13
+	Set the **Strip Leading Zeros** slide to On.
+1. Click **Save**.
+
+### Configuring a SolutranS3 Type Data Pattern
+
+This process describes how to set up a SolutranS3 Type Data Pattern:
+
+1. Browse to Sales/Barcodes/Data Pattern.
+1. Click **+ Add Data Pattern**. The **New Data Patterns** screen is displayed.
+1. In the **ID** field, enter the Data Pattern ID, e.g., Solutran.
+1. In the **Description** field, enter the name of the data pattern, e.g., SolutranS3
+1. From the **Location** drop-down list, select the store(s) in which the data pattern is supported.  
+a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.  
+Or  
+From the left pane, select the checkboxes next to each store linked to the data pattern.  
+All stores selected are displayed in the Selections in the right pane.  
+b. Click **Save** to save the selected stores.
+1. From the **Type** drop-down list, select the data pattern type, e.g., **Customer Program**.
+1. In the **General** tab, expand the **Recognizers** pane and select the **Prefix Length** option (displayed by default).
+1. In the **Length** field, enter the total length of the data pattern, e.g., 17.
+1. In the Decoded Prefix Ranges section, click +Add New Prefix.
+* In the **Fixed** field, enter 636811.
+10. Expand the **Validators** pane, and in the Check Digit section select + Add New Check Digit.  
+a. In the **Offset** – enter 14.
+b. In the **Algorithm** – enter UPC.
+c. In the **Position** – enter 1
+d. In the **Length** – enter 13
+1. Click Save.

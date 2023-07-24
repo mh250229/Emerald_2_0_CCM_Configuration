@@ -510,7 +510,7 @@ a. From the left pane, click the **Tender Code** option. The **Tender Code** sec
 * In the **Fixed Value** – enter 80  
 b. From the left pane, click the **Voucher Type** option. The **Voucher Type** section is displayed in the right pane, define the parameters:  
 * In the **Fixed Value**, - enter Tomra
-1. Click **Save**.
+12. Click **Save**.
 
 ### Configuring a GS1 EAN13 Type Data Pattern
 

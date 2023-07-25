@@ -145,7 +145,7 @@ Click the calendar icon to use the calendar to assist you in selecting the dates
 3. In the **Policy Name** field, enter **Bottle Deposit**.  
 4. From the **Location** drop-down list, select the store(s) in which the Return Policy is supported.  
 
-    a. To search for a store, in the **Type to Search** field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
+    a. To search for a store, in the *Type to Search* field, enter the full or partial name of the store. The stores that meet the criteria are displayed in the left pane.
 
     Or  
 

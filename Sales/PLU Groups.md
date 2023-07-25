@@ -98,7 +98,7 @@ You can add items to the PLU Group, or Sub Groups and Items to the PLU Group.
 
     ![PLU Sub Group Screen](/Images/plusubgroupsscreen.png)
 
-### Sub Groups
+### Adding Items to PLU Groups / Sub Groups
 
 1. Create a PLU Group and/or Sub Groups. See Configuring PLU Groups and Configuring PLU Groups with PLU Sub Groups above.
 

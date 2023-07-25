@@ -88,6 +88,7 @@ This example describes how to set up an Age Restriction Rule to prevent cigarett
     * Enter Date Of Birth  
     * Enter DoB/Approve/Reject
 
+
     **Approve/Reject Option**
 
     a. In the **Customer Age is less than** field, enter the maximum customer age.  
@@ -115,3 +116,35 @@ This example describes how to set up an Age Restriction Rule to prevent cigarett
     c. (Optional) From the **Reject Reason Codes** drop-down list, select the reasons for rejecting the sale of the item. If selected, when the Age Restriction policy is triggered on the POS, the cashier can select a reason from the list of reason codes.  
 
 7. Select **Save**.
+
+### Configuring an Age Restriction 18
+
+This example describes how to set up an Age Restriction Rule to prevent beer purchases to individuals under the age of 18.  
+
+1. Browse to Sales/Rules/Age Restrictions.
+1. Click **+ Add Policy**. The **New Age Restricted Polic**y screen is displayed.
+1. In the **Policy ID** field, enter the Id of the policy, e.g., AgeRestriction18.
+1. From the **Location** drop-down list, select Root.
+1. Click the arrow in the **Policy Members** options. 
+1. In the **Products** field, enter Goldstar beer, Carlsberg beer, and Heineken beer. 
+1. Click the arrow in the **Customer Age** options. 
+1. In the **Age Confirmation Action Type** dropdown menu, select Enter DoB / Approve / Reject.
+1. In the **Customer Age is less than...**  field, enter 18.
+1. In the **Message** drop down menu, select UnderAge18Message.
+1. Click **Save**.
+
+### Configuring an Age Restriction 21
+
+This example describes how to set up an Age Restriction Rule to prevent beer purchases to individuals under the age of 21.  
+
+1. Browse to Sales/Rules/Age Restrictions.
+1. Click **+ Add Policy**. The **New Age Restricted Policy** screen is displayed.
+1. In the **Policy ID** field, enter the Id of the policy, e.g., AgeRestriction21.
+1. From the **Location** drop-down list, select Root.
+1. Click the arrow in the **Policy Members** options. 
+1. In the **Products** field, enter Goldstar beer, Carlsberg beer, and Heineken beer. 
+1. Click the arrow in the **Customer Age** options. 
+1. In the **Age Confirmation Action Type** dropdown menu, select Enter DoB / Approve / Reject.
+1. In the **Customer Age is less than...**  field, enter 21.
+1. In the **Message** drop down menu, select UnderAge21Message.
+1. Click **Save**.

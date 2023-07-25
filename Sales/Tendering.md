@@ -28,8 +28,8 @@ In this example, the cashier must enter the amount of cash given by the customer
 9. Set the **Block Partial Payment** slider to Off.
 10. In the **Payment Priority** field enter 0.
 11. Click the arrow in the **Change Definitions** option.
-12. Set the **Consolidate On Change** slider to Yes.
-13. Set the **Disable Automatic Void** slider to No.
+12. Set the **Consolidate On Change** slider to **Yes**.
+13. Set the **Disable Automatic Void** slider to **No**.
 14. In the **Priority** field, enter 1.
 15. From the **Tender / Select Tender** drop-down list, select **Cash**.
 16. In the **Up to Amount** field, enter 100.
@@ -47,16 +47,16 @@ In this example, different cash buttons are displayed at the POS, according to s
 6. Click the arrow in the **Basic Definitions** options.
 7. In the **Open drawer**, select the **Always** option.
 8. In the **Tendering amount required** option, select the **Open Amount with Suggested Options** option.
-9. In the grid, in row # 3, in the Value field, enter 1 and click in the field. The row is added to the grid.
-10. In the grid, in row # 4, in the Value field, enter 5 and click in the field. The row is added to the grid.
-11. In the grid, in row # 5, in the Value field, enter 10 and click in the field. The row is added to the grid.
-12. In the grid, in row # 6, in the Value field, enter 20 and click in the field. The row is added to the grid.
+9. In the grid, in row # 3, in the **Value** field, enter 1 and click in the field. The row is added to the grid.
+10. In the grid, in row # 4, in the **Value** field, enter 5 and click in the field. The row is added to the grid.
+11. In the grid, in row # 5, in the **Value** field, enter 10 and click in the field. The row is added to the grid.
+12. In the grid, in row # 6, in the **Value** field, enter 20 and click in the field. The row is added to the grid.
 13. Set the **Block Partial Payment** slider to No.
 14. In the **Payment Priority** field enter 0.
 15. Click the arrow in the **Change Definitions** option.
-16. Set the **Consolidate On Change** slider to Yes.
-17. Set the **Disable Automatic Void** slider to No.
-18. In the Priority field, enter 1.
+16. Set the **Consolidate On Change** slider to **Yes**.
+17. Set the **Disable Automatic Void** slider to **No**.
+18. In the **Priority** field, enter 1.
 19. From the **Tender / Select Tender** drop-down list, select **Cash**.
 20. In the **Up to Amount** field enter 100.
 21. Click **Save**.
@@ -129,7 +129,7 @@ In this example, the Non ECC tender is configured for the Check/Cheque tender. T
 11. Click the arrow in the **Tender Authorization** option.
 12. In the **Authorization Method** options, Process with EPS is selected by default.
 13. In the **Tender EPS Reference**, enter EPS_Giftcard and click Enter.
-14. Enter **GC** and click **Enter**.
+14. Enter **GC** and click Enter.
 15. Click the arrow in the **Specific Definitions** option.
 16. Set the **Barcode Required** slider to **Yes**.
 17. Click **Save**.
@@ -147,7 +147,7 @@ In this example, the Non ECC tender is configured for the Check/Cheque tender. T
 9. Set the **Block Partial Payment** slider to No.
 10. In the **Payment Priority** field enter 0.
 11. Click the arrow in the **Tender Authorization** option.
-12. In the **Authorization Method** options, Process with EPS is selected by default.
+12. In the **Authorization Method** options, **Process with EPS** is selected by default.
 13. In the T**ender EPS Reference**, enter EPS_Mastercard and click **Enter**.
 14. Enter **MC** and click **Enter**.
 15. Click the arrow in the **Specific Definitions** option.
@@ -273,7 +273,7 @@ Under Construction
 9. In the **Payment Priority** field enter 110.
 10. Click the arrow in the **Tender Authorization** option.
 11. In the **Authorization Method** options, **Process with EPS** is selected by default.
-12. In the **Tender EPS Reference**, enter **EWIC** and click Enter**.
+12. In the **Tender EPS Reference**, enter **EWIC** and click Enter.
 13. Enter **eWic** and click **Enter**.
 14. Click **Save**.
 
@@ -295,3 +295,26 @@ Under Construction
 11. Set the **Barcode Required** slider to Yes.
 12. Set the **Request for tendering** slider to Yes.
 13. Click **Save**.
+
+#### Configuring a Bottle Deposit Return
+
+1. Browse to Sales/Tendering/Tender.
+1. Click **+Add Tender**.
+1. In the **Tender Code** enter the Tender Code Id, e.g., 80.
+1. In the **Tender Name** enter the name of the tender, e.g., Bottle Deposit Return.
+1. From the **Tender Type** drop-down list, select **Voucher**.
+1. Click the arrow in the **Basic Definitions** options.
+1. In the **Open drawer**, select the **Always** option.
+1. In the **Tender amount required**, select the **Open Amount, Balance Due as Default** option.
+1. Set the **Block Partial Payment** slider to No.
+1. In the **Payment Priority** field enter 0.
+1. Click the arrow in the **Specific Definition** option.
+1. Set the **Barcode Required** slider to Yes.
+1. Set the **Bottle deposit voucher** slider to Yes.
+1. Set the **Request for tendering** slider to No.
+1. Click the arrow in the **Prohibit Action Definitions** option.
+1. Set the **Prohibit Over Tender** slider to No.
+1. Set the **Prohibit Payment slider** to No
+1. Set the **Prohibit Refund slider** to No
+1. Set the **Prohibit Void slider** to No
+1. Click **Save**.

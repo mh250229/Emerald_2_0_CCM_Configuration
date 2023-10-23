@@ -1,0 +1,1 @@
+# Display Watermark Once Loyalty Card is Scanned Configuration

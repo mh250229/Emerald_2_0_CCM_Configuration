@@ -1,0 +1,1 @@
+# Edge ID Emergency Barcode E2E Verification Configuration

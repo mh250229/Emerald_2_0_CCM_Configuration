@@ -1,0 +1,1 @@
+# Capture Alt ID – Show Message to Cashier if Customer Not Found

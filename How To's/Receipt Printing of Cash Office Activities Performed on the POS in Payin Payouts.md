@@ -1,0 +1,1 @@
+# Receipt Printing of Cash Office Activities Performed on the POS in Payin/Payouts

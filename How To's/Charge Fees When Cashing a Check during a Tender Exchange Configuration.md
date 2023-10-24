@@ -1,0 +1,1 @@
+# Charge Fees When Cashing a Check during a Tender Exchange Configuration

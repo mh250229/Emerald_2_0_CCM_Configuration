@@ -1,0 +1,1 @@
+# POS Auto Lock Configuration

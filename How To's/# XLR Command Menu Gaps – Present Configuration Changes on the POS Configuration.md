@@ -1,0 +1,1 @@
+# XLR Command Menu Gaps – Present Configuration Changes on the POS Configuration

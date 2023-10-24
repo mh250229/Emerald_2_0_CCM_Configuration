@@ -1,0 +1,1 @@
+# Return Embedded Barcodes

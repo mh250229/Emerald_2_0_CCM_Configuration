@@ -1,0 +1,1 @@
+# Revise PIN pad Configuration

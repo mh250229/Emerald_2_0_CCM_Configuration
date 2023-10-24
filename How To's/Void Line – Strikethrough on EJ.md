@@ -1,0 +1,1 @@
+# Void Line – Strikethrough on EJ

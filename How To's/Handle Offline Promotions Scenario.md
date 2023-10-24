@@ -1,0 +1,1 @@
+# Handle Offline Promotions Scenario

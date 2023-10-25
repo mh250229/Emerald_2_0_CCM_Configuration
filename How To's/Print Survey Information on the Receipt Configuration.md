@@ -1,1 +1,0 @@
-# Print Survey Information on the Receipt Configuration

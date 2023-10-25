@@ -1,1 +1,0 @@
-# Integration with Solutran Healthy Savings Configuration

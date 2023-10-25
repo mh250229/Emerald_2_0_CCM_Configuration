@@ -1,1 +1,0 @@
-# Generate / Resetting the Cashier Barcode

@@ -1,1 +1,0 @@
-# Vendor Coupon to Cover the Tax when Not Forgiven when Paid with eWIC Configuration

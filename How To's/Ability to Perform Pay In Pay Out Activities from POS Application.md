@@ -1,1 +1,0 @@
-# Ability to Perform Pay In/Pay Out Activities from POS Application

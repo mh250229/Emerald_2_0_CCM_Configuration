@@ -1,1 +1,0 @@
-# Improve Tender Menu UI

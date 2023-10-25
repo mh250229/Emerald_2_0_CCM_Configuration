@@ -1,1 +1,0 @@
-# Promotions with eWIC

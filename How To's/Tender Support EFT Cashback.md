@@ -1,1 +1,0 @@
-# Tender: Support EFT Cashback

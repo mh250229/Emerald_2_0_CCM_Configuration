@@ -1,1 +1,0 @@
-# Sell and Void Embedded Barcodes

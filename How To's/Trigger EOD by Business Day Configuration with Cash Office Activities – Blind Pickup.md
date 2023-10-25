@@ -1,1 +1,0 @@
-# Trigger EOD by Business Day Configuration with Cash Office Activities – Blind Pickup

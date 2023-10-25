@@ -1,1 +1,0 @@
-# Open Price BRM (Parent) Configuration.md

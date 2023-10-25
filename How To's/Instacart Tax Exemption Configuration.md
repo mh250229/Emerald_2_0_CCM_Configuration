@@ -1,1 +1,0 @@
-# Instacart Tax Exemption Configuration

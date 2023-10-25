@@ -1,1 +1,0 @@
-# InComm OTC Integration - Phase I - Sale Receipt/Tlog

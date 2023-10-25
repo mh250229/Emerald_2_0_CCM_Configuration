@@ -1,1 +1,0 @@
-# Purchase/Activate InComm Third Party Cards

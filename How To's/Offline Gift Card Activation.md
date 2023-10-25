@@ -1,1 +1,0 @@
-# Offline Gift Card Activation

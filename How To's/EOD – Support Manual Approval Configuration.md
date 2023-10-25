@@ -1,1 +1,0 @@
-# EOD – Support Manual Approval Configuration

@@ -1,1 +1,0 @@
-# Till Tender Blind Pick Up Configuration

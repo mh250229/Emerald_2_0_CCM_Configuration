@@ -1,1 +1,0 @@
-# Scan Barcode to Apply Customer Tax Exemption Configuration

@@ -1,1 +1,0 @@
-# Manual Weight Indication on Receipt

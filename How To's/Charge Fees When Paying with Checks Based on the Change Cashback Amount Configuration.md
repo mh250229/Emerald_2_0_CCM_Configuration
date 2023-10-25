@@ -1,1 +1,0 @@
-# Charge Fees When Paying with Checks Based on the Change/Cashback Amount Configuration

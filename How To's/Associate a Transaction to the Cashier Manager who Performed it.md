@@ -1,1 +1,0 @@
-# Associate a Transaction to the Cashier/Manager who Performed it

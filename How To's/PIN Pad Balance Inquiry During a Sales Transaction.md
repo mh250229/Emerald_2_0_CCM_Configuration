@@ -1,1 +1,0 @@
-# PIN Pad Balance Inquiry During a Sales Transaction

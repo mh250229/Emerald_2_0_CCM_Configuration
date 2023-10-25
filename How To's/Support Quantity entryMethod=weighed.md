@@ -1,1 +1,0 @@
-# Support Quantity entryMethod=weighed

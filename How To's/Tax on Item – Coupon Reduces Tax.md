@@ -1,1 +1,0 @@
-# Tax on Item – Coupon Reduces Tax
